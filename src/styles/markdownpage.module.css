@@ -1,0 +1,50 @@
+.pageContainer {
+    display: flex;
+    padding: 60px 0px 100px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    text-align: center; /* Center align text */
+    background-color: #111215;
+  }
+  
+  .contentContainer {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: min-content;
+    justify-content: center;
+    max-width: 598px;
+    overflow: visible;
+    padding: 16px;
+    position: relative;
+    width: 100%
+  }
+  
+  
+  .content {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+  }
+  
+  .title{
+    font-family: "Inter-BlackItalic", "Inter", sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    text-decoration: none solid rgb(245, 245, 247);
+    line-height: 57.6px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none
+  }
+

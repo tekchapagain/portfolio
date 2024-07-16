@@ -1,0 +1,54 @@
+/* globals.css */
+:root {
+    /* Light mode variables */
+    --background-color-light: #ffffff;
+    --text-color-light: #ffffff;
+  
+    /* Dark mode variables */
+    --background-color-dark: #111215;
+    --text-color-dark: #f0f0f0;
+  }
+  
+  /* Dark mode styles */
+  [data-theme='dark'] {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+  }
+  
+  .theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+
+  .test{
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 57.59px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%
+  }
+
+  p{
+    font-family: "DM Mono",monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-top: 0%;
+    gap:10px;
+    line-height: 1.75rem;
+    text-align: start;
+    color:  rgb(161, 161, 170);
+    text-decoration: none;
+    text-transform: none
+  }
