@@ -1,7 +1,7 @@
 import { GetStaticProps } from 'next';
 import ThemeToggle from '../components/ThemeToggle';
 import { getMarkdownContent } from '../lib/markdown';
-import styles from '../styles/MarkdownPage.module.css'; // Create this file in the same directory
+import styles from '../styles/markdownpage.module.css'; 
 
 type Props = {
   title: string;
