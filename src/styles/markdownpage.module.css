@@ -5,7 +5,6 @@
     align-items: center;
     min-height: 100%;
     text-align: center; /* Center align text */
-    background-color: #111215;
   }
   
   .contentContainer {
@@ -41,7 +40,6 @@
     font-style: italic;
     font-weight: 900;
     letter-spacing: -1.5px;
-    text-decoration: none solid rgb(245, 245, 247);
     line-height: 57.6px;
     text-align: left;
     text-decoration: none;
