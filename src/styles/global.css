@@ -1,19 +1,19 @@
-/* globals.css */
 :root {
-    /* Light mode variables */
-    --background-color-light: #ffffff;
-    --text-color-light: #ffffff;
-  
-    /* Dark mode variables */
-    --background-color-dark: #111215;
-    --text-color-dark: #ffffff;
-  }
-  
-  /* Dark mode styles */
-  [data-theme='dark'] {
-    background-color: var(--background-color-dark);
-    color: var(--text-color-dark);
-  }
+  --background-color: #ffffff;
+  --text-color: #111215;
+}
+
+[data-theme='dark'] {
+  --background-color: #111215;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 1.0s, color 1.0s;
+}
+
   
   .theme-toggle {
     position: fixed;

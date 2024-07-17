@@ -1,12 +1,12 @@
 ---
- title: "Tek Chapgagain"
+ title: "Tek Chapagain"
 ---
 
 Data Engineer/Business Intelligence Developer
 
 I design & build comprehensive data solutions to optimize business intelligence. With expertise in developing efficient data pipelines and creating insightful analytics, I help businesses make data-driven decisions. Explore my latest projects and tools to see how I can help streamline your data processes.
 
-🌍Kathmandu, Nepal &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🟢 Available for work
+Kathmandu, Nepal &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;🟢 Available for work
 
    
 

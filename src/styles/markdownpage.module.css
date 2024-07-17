@@ -34,14 +34,15 @@
     transform: none;
   }
   
-  .title{
-    font-family: "Inter-BlackItalic", "Inter", sans-serif;
-    font-size: 48px;
-    font-style: italic;
+  h1.title{
+    font-family: "Inter-BlackItalic","Inter", sans-serif;
+    font-size: 46px;
+    font-style: normal;
     font-weight: 900;
     letter-spacing: -1.5px;
-    line-height: 57.6px;
-    text-align: left;
+    line-height: 1.2em;
+    text-align: start;
+    margin: 0;
     text-decoration: none;
     text-transform: none
   }
